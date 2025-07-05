@@ -1,0 +1,94 @@
+.pagination_conteiner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+
+
+.next_btn {}
+
+.next_link {
+  display: inline-block;
+  background-color: aqua;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  padding: 10px 14px;
+  transition: all 250ms ease;
+
+  &:hover {
+    transform: scale(1.1);
+    color: rebeccapurple
+  }
+}
+
+.prev_btn {}
+
+.prev_link {
+  display: inline-block;
+  background-color: aqua;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  padding: 10px 14px;
+  transition: all 250ms ease;
+
+  &:hover {
+    transform: scale(1.1);
+    color: rebeccapurple
+  }
+}
+
+.break_btn {}
+
+.break_link {
+  display: inline-block;
+  background-color: aqua;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  padding: 10px 14px;
+  transition: all 250ms ease;
+
+  &:hover {
+    transform: scale(1.1);
+    color: rebeccapurple
+  }
+}
+
+.page_number {}
+
+.page_link {
+  display: inline-block;
+  background-color: aqua;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  padding: 10px 14px;
+  transition: all 250ms ease;
+
+  &:hover {
+    transform: scale(1.1);
+    color: rebeccapurple
+  }
+}
+
+.active {
+
+  cursor: default;
+  background-color: rgba(0, 0, 0, 0.7);
+
+  &:hover {
+    transform: scale(1);
+    color: white;
+  }
+}

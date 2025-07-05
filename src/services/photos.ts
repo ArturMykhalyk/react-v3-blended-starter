@@ -12,12 +12,11 @@ interface PhotosHttpResp{
 
   photos: Photo[];
   per_page: number;
-  total_rusults: number;
+  total_results: number;
     
 }
 
 export const getPhotos = async (query:string,page:number) => {
 const {data} = await axios.get<PhotosHttpResp>(`search?query=${query}&page=${page}`);
-  console.log(data);
   return data;
 };
